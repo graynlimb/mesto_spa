@@ -76,6 +76,9 @@ header .btn{min-height:44px;padding:0 20px;font-size:.9rem}
 .field{margin-bottom:22px}
 label{display:block;margin-bottom:8px;font-weight:700}
 input,select{width:100%;min-height:52px;padding:0 16px;border:2px solid var(--line);border-radius:14px;background:#fff;color:var(--ink);font:500 1rem var(--sans)}
+input[type=date]{-webkit-appearance:none;appearance:none;display:block;min-width:0;max-width:100%;text-align:left;line-height:normal}
+input[type=date]::-webkit-date-and-time-value{text-align:left;min-height:1.4em}
+input[type=date]::-webkit-datetime-edit{padding:0}
 input:focus,select:focus{border-color:var(--moss);outline:none;box-shadow:0 0 0 3px rgba(51,71,63,.25)}
 .chk{display:flex;align-items:center;gap:12px;margin:0;font-weight:500;cursor:pointer}
 .chk input{width:22px;min-height:0;height:22px;padding:0;accent-color:var(--moss);flex:none}
